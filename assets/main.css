@@ -2,6 +2,23 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+article {
+  float: left;
+  padding:0.2em;
+  margin-bottom: 5em
+}
+
+article:nth-child(even) {
+  float: right;
+}
+
+article:nth-child(odd) {
+  float: left;
+}
+
+article img {
+  max-height: 75vh
+}
 p {
   margin-top: 7px
 }
